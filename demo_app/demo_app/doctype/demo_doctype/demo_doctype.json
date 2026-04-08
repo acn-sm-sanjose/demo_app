@@ -14,7 +14,8 @@
   "color_picker",
   "add_float_number_here",
   "select_field_here",
-  "gender_field"
+  "gender_field",
+  "input_changes_test"
  ],
  "fields": [
   {
@@ -69,12 +70,17 @@
    "fieldtype": "Select",
    "label": "Gender",
    "options": "Male\nFemal\nOther"
+  },
+  {
+   "fieldname": "input_changes_test",
+   "fieldtype": "Data",
+   "label": "Input Changes Test"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-04-08 13:33:57.458742",
+ "modified": "2026-04-08 14:05:03.299282",
  "modified_by": "Administrator",
  "module": "Demo App",
  "name": "Demo Doctype",
