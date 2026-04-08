@@ -15,7 +15,8 @@
   "add_float_number_here",
   "select_field_here",
   "gender_field",
-  "input_changes_test"
+  "input_changes_test",
+  "input_changes_test_ii"
  ],
  "fields": [
   {
@@ -75,12 +76,17 @@
    "fieldname": "input_changes_test",
    "fieldtype": "Data",
    "label": "Input Changes Test"
+  },
+  {
+   "fieldname": "input_changes_test_ii",
+   "fieldtype": "Data",
+   "label": "Input Changes Test II"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-04-08 14:05:03.299282",
+ "modified": "2026-04-08 16:17:28.889444",
  "modified_by": "Administrator",
  "module": "Demo App",
  "name": "Demo Doctype",
