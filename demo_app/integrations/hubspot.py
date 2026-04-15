@@ -18,7 +18,7 @@ def update_deal(deal_id, properties: dict):
 
     payload = {
         "properties": properties
-    }
+    }   
 
     response = requests.patch(url, json=payload, headers=headers, timeout=15)
 

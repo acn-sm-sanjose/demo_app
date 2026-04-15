@@ -5,6 +5,13 @@ app_description = "it is a demo app"
 app_email = "steve.m.d.san.jose@accenture.com"
 app_license = "mit"
 
+scheduler_events = {
+    "all": [
+        "demo_app.validation.worker.validate_one_deal"
+    ]
+}
+
+
 # Apps
 # ------------------
 
